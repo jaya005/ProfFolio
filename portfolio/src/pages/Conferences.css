@@ -1,0 +1,39 @@
+.conference-card {
+    height: 100%; /* Ensure all cards have the same height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .conference-image {
+    height: 180px; /* Fixed image height for uniformity */
+    object-fit: cover; /* Ensure images fill the space without distortion */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  .conference-card {
+    height: 100%; /* Makes all cards equal height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .conference-image {
+    height: 180px; /* Fixed height for uniformity */
+    object-fit: contain; /* Ensures the full image is visible */
+    width: 100%; /* Makes sure image doesn't shrink */
+    background-color: #f8f9fa; /* Light gray background to fill empty spaces */
+    padding: 5px; /* Adds space around the image */
+  }
+  

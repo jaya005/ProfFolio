@@ -1,0 +1,26 @@
+.project-card {
+    height: 100%; /* Makes all cards the same height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-image {
+    height: 200px; /* Ensures all images have the same height */
+    object-fit: cover; /* Crop images to fill the space */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
