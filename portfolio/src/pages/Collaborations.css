@@ -1,0 +1,29 @@
+.collab-card {
+    height: 100%; /* Ensures all cards are the same height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .collab-image {
+    height: 180px; /* Fixed height for images */
+    width: 100%;
+    object-fit:cover; /* Ensures the full image is visible without cropping */
+    background-color: #f8f9fa; /* Light gray background to fill empty spaces */
+    padding: 5px; /* Adds space around the image */
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 14px;
+  }
+  
