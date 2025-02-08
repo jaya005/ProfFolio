@@ -1,0 +1,14 @@
+.blog-card {
+    height: 100%; /* Ensures all cards are the same height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blog-image {
+    height: 180px; /* Fixed height for all images */
+    width: 100%; /* Ensures the image stretches to fit the width */
+    object-fit:fill; /* Makes sure the entire image is visible */
+    background-color: #f8f9fa; /* Adds a light background to fill extra space */
+    padding: 5px; /* Adds space around the image */
+  }
+  
