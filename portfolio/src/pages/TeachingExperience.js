@@ -21,13 +21,6 @@ const TeachingExperience = () => {
     { name: "Artificial Intelligence", description: "Understanding neural networks, deep learning, and AI-driven applications." },
     { name: "Cloud Computing", description: "Learning cloud services, deployment strategies, and security best practices." },
   ];
-
-  const testimonials = [
-    { name: "Amit Sharma", text: "Professor Jaya's DSA course was life-changing! The concepts were explained clearly with real-world examples." },
-    { name: "Sneha Verma", text: "The Machine Learning course provided great hands-on projects. The best teaching style I've experienced!" },
-    { name: "Ravi Kumar", text: "Blockchain Security was my favorite! The professor made complex concepts very easy to understand." },
-  ];
-
   const teachingTimeline = [
     { year: "2024 – Present", position: "Associate Professor, NIT Jamshedpur" },
     { year: "2021 – 2024", position: "Assistant Professor, IIT Delhi" },
@@ -70,58 +63,7 @@ const TeachingExperience = () => {
         ))}
       </ul>
 
-      {/* Student Testimonials */}
-      <h2 className="mt-5 mb-4">💬 Student Testimonials</h2>
-      <div id="testimonialCarousel" className="carousel slide" data-bs-ride="carousel">
-        <div className="carousel-inner">
-          {testimonials.map((testimonial, index) => (
-            <div className={`carousel-item ${index === 0 ? "active" : ""}`} key={index}>
-              <div className="text-center p-4 border rounded shadow-sm">
-                <p className="lead">"{testimonial.text}"</p>
-                <h5 className="fw-bold">- {testimonial.name}</h5>
-              </div>
-            </div>
-          ))}
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon"></span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
-          <span className="carousel-control-next-icon"></span>
-        </button>
-      </div>
-
-      {/* Teaching Resources */}
-      <h2 className="mt-5 mb-4">📄 Teaching Resources</h2>
-      <ul className="list-group">
-        <li className="list-group-item d-flex justify-content-between">
-          <span>📌 DSA Lecture Notes (PDF)</span> <button className="btn btn-success">Download</button>
-        </li>
-        <li className="list-group-item d-flex justify-content-between">
-          <span>📌 ML Course Assignments (ZIP)</span> <button className="btn btn-success">Download</button>
-        </li>
-        <li className="list-group-item d-flex justify-content-between">
-          <span>📌 Blockchain Security Research Papers (PDF)</span> <button className="btn btn-success">Download</button>
-        </li>
-      </ul>
-
-      {/* Contact for Mentorship */}
-      <h2 className="mt-5 mb-4">📩 Contact for Mentorship</h2>
-      <form className="mb-5">
-        <div className="mb-3">
-          <label className="form-label">Full Name</label>
-          <input type="text" className="form-control" placeholder="Enter your name" />
-        </div>
-        <div className="mb-3">
-          <label className="form-label">Email Address</label>
-          <input type="email" className="form-control" placeholder="Enter your email" />
-        </div>
-        <div className="mb-3">
-          <label className="form-label">Message</label>
-          <textarea className="form-control" rows="4" placeholder="How can I help you?"></textarea>
-        </div>
-        <button type="submit" className="btn btn-primary">Send Message</button>
-      </form>
+     
     </div>
   );
 };
