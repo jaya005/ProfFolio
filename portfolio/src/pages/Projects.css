@@ -1,12 +1,12 @@
 .project-card {
-    height: 100%; /* Makes all cards the same height */
+    height: 100%; 
     display: flex;
     flex-direction: column;
   }
   
   .project-image {
-    height: 200px; /* Ensures all images have the same height */
-    object-fit: cover; /* Crop images to fill the space */
+    height: 200px; 
+    object-fit: cover; 
   }
   
   .card-body {
@@ -22,5 +22,14 @@
   
   .card-text {
     font-size: 14px;
+  }
+  
+   .project-card {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
   }
   
