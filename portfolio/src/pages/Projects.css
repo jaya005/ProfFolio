@@ -10,6 +10,7 @@
   }
   
   .card-body {
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -30,6 +31,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    text-decoration: none;
     font-weight: bold;
   }
-  
+  /* Remove underlines and transition from button text */
+button {
+  text-decoration: none; /* Remove underline */
+  transition: none; /* Remove any transition effect */
+}
+
+/* You can also be more specific to target only project buttons */
+.project-card button {
+  text-decoration: none; /* Remove underline */
+  transition: none; /* Remove any transition effect */
+}
+button[type="button"]{
+  text-decoration: none;
+}

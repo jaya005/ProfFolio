@@ -1,0 +1,105 @@
+/* General Page Styling */
+
+.home-container {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 50px 0;
+  }
+  
+  .fade-in {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Main Header Styling */
+  h1.display-4 {
+    font-size: 3rem; 
+    font-weight: bold;
+    color:#6c757d; /* Blue color for the heading */
+  }
+  
+  .lead {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  
+  /* About the Professor Section */
+  #about {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #343a40;
+  }
+  
+  .proff {
+    border-radius:50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    object-fit:contain;
+
+  }
+  
+  /* Social Links Section */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .social-icon {
+    color: #6c757d;;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #6c757d;;
+  }
+  
+  /* Footer Styling */
+  .footer {
+    background-color: #ffffff;
+    color: #ffffff;
+    padding: 30px 0;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .text-muted {
+    color: #ffffff;
+  }
+  
+  /* Spacing */
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  .img-fluid{
+    max-width:60%;
+  }
+  .proff {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+    max-width: 50%; /* Adjust the width as needed */
+    width: 100%; /* Ensures the image takes full width up to the max-width */
+    height: auto; /* Maintains aspect ratio */
+  }
+  

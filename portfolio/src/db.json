@@ -8,14 +8,38 @@
     },
     {
       "id": "8bf5",
+      "title": "Autonomous Data Manipulation",
+      "description": "Designing Carrier technology for efficient package deliveries.",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.UbR4mU-U7vJXRMkdY7wqawHaFq&pid=Api&P=0&h=180"
+    },{
+      "id": "2272678",
+      "title": "Threat Detection using AI",
+      "description": "Quantum driven system to detect and prevent cyber threats in real time.",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.2CowSQvmXAXWvkejZOvOTAHaEK&pid=Api&P=0&h=180"
+    },
+    {
+      "id": "8bf5wq",
       "title": "Autonomous Drones for Delivery",
       "description": "Designing and testing autonomous drone technology for efficient package deliveries.",
-      "image": "https://tse3.mm.bing.net/th?id=OIP.UbR4mU-U7vJXRMkdY7wqawHaFq&pid=Api&P=0&h=180"
+      "image": "https://tse1.mm.bing.net/th?id=OIP.U8JB9b-gG9zf8MH3r6idbgHaE8&pid=Api&P=0&h=180"
     }
   ],
   "researchPapers": [
     {
-      "id": "a02a",
+      "id": "a02ggga",
+      "title": "Data Science",
+      "description": "Understanding the impact of Data Science algorithms.",
+      "image": "https://tse4.mm.bing.net/th?id=OIP._bfM2X0gndr4NEFqq6PekQAAAA&pid=Api&P=0&h=180",
+      "category": "Quantum"
+    },{
+      "id": "a02dea",
+      "title": "AI Tools",
+      "description": "Understanding the impact of AI Tools.",
+      "image": "https://tse1.mm.bing.net/th?id=OIP.ekqBkvYlm0kiyqlz7P9zHQHaEe&pid=Api&P=0&h=180",
+      "category": "Quantum"
+    },
+    {
+      "id": "a02efa",
       "title": "Quantum Computing and Cryptography",
       "description": "Understanding the impact of quantum computing on cryptographic algorithms.",
       "image": "https://www.cuelogic.com/wp-content/uploads/2021/06/Edge.jpg",

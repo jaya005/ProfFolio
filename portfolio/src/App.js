@@ -11,7 +11,8 @@ import BlogPost from "./pages/BlogPost";
 import AdminDashboard from "./admin/AdminDashboard";
 import Login from "./pages/Login";
 import MyNavbar from "./components/MyNavbar"; 
-
+import LoginPopup from './components/LoginPopup'; // Make sure this path is correct 
+import ResetPassword from './components/ResetPassword';
 function App() {
   return (
     <Router>
@@ -28,6 +29,8 @@ function App() {
         <Route path="/blog/:id" element={<BlogPost />} />
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/" exact component={LoginPopup} />
+        <Route path="/reset-password" component={ResetPassword} />
       </Routes>
     </Router>
   );
