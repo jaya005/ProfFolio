@@ -168,7 +168,7 @@ const Blog = () => {
       {loading && <p className="text-center">Loading blogs...</p>}
       {error && <p className="text-danger text-center">{error}</p>}
 
-      <Row>
+      <Row className="justify-content-center g-4">
         {blogs.map((blog) => (
           <Col key={blog.id} xs={12} sm={6} md={4} lg={3} className="mb-4">
             <Card className="blog-card shadow">

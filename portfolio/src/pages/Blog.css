@@ -1,14 +1,28 @@
-.blog-card {
-    height: 100%; /* Ensures all cards are the same height */
+
+  .blog-card {
     display: flex;
     flex-direction: column;
+    height: 100%; /* Ensure all cards have equal height */
   }
   
   .blog-image {
-    height: 180px; /* Fixed height for all images */
-    width: 100%; /* Ensures the image stretches to fit the width */
-    object-fit:fill; /* Makes sure the entire image is visible */
-    background-color: #f8f9fa; /* Adds a light background to fill extra space */
-    padding: 5px; /* Adds space around the image */
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+  }
+  
+  .blog-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures even spacing */
+    flex-grow: 1; /* Makes sure the body expands properly */
+  }
+  
+  .blog-card .card-text {
+    flex-grow: 1; /* Ensures description takes available space */
+  }
+  
+  .blog-card .btn {
+    align-self: center; /* Centers the button */
   }
   

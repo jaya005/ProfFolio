@@ -268,7 +268,7 @@ const ResearchPapers = () => {
       </InputGroup>
 
       {/* Displaying Research Papers */}
-      <Row>
+      <Row className="justify-content-center g-4">
         {filteredPapers.map((paper) => (
           <Col key={paper.id} md={6} lg={4} className="mb-4">
             <Card className="shadow">
