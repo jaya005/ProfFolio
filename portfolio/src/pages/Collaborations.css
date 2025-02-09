@@ -26,4 +26,7 @@
   .card-text {
     font-size: 14px;
   }
-  
+  /* Add margin to shift content below the navbar */
+.container {
+  margin-top: 80px; /* Adjust based on navbar height */
+}
